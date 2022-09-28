@@ -1,20 +1,16 @@
 {
-  "files": {
-    "main.css": "/test-react/static/css/main.b5100437.css",
-    "main.js": "/test-react/static/js/main.7f5c9dbe.js",
-    "static/js/787.b52190a6.chunk.js": "/test-react/static/js/787.b52190a6.chunk.js",
-    "static/media/poppins-v20-latin-regular.svg": "/test-react/static/media/poppins-v20-latin-regular.04277a799cb3f1b29dfa.svg",
-    "static/media/poppins-v20-latin-regular.ttf": "/test-react/static/media/poppins-v20-latin-regular.80946c0880373b223d9c.ttf",
-    "static/media/poppins-v20-latin-regular.woff": "/test-react/static/media/poppins-v20-latin-regular.f61407da33b59324fbef.woff",
-    "static/media/poppins-v20-latin-regular.eot": "/test-react/static/media/poppins-v20-latin-regular.27a38aa36ed539d2b33f.eot",
-    "static/media/poppins-v20-latin-regular.woff2": "/test-react/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
-    "index.html": "/test-react/index.html",
-    "main.b5100437.css.map": "/test-react/static/css/main.b5100437.css.map",
-    "main.7f5c9dbe.js.map": "/test-react/static/js/main.7f5c9dbe.js.map",
-    "787.b52190a6.chunk.js.map": "/test-react/static/js/787.b52190a6.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.b5100437.css",
-    "static/js/main.7f5c9dbe.js"
-  ]
+  "main.css": "/test-react/static/css/main.44a96abd.chunk.css",
+  "main.js": "/test-react/static/js/main.0d16cc86.chunk.js",
+  "main.js.map": "/test-react/static/js/main.0d16cc86.chunk.js.map",
+  "static/js/1.7f8c91dd.chunk.js": "/test-react/static/js/1.7f8c91dd.chunk.js",
+  "static/js/1.7f8c91dd.chunk.js.map": "/test-react/static/js/1.7f8c91dd.chunk.js.map",
+  "static/js/2.3ed28b65.chunk.js": "/test-react/static/js/2.3ed28b65.chunk.js",
+  "static/js/2.3ed28b65.chunk.js.map": "/test-react/static/js/2.3ed28b65.chunk.js.map",
+  "runtime~main.js": "/test-react/static/js/runtime~main.a085d201.js",
+  "runtime~main.js.map": "/test-react/static/js/runtime~main.a085d201.js.map",
+  "static/media/App.css": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg",
+  "static/css/main.44a96abd.chunk.css.map": "/test-react/static/css/main.44a96abd.chunk.css.map",
+  "index.html": "/test-react/index.html",
+  "precache-manifest.b510c3a7b330aebb42b1820af71ae65e.js": "/test-react/precache-manifest.b510c3a7b330aebb42b1820af71ae65e.js",
+  "service-worker.js": "/test-react/service-worker.js"
 }
