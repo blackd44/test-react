@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "97836e4a050c6a6523ed",
-    "url": "/test-react/static/css/main.f0eb8323.chunk.css"
+    "revision": "3460d6e7c02e9f385c99",
+    "url": "/test-react/static/css/main.f74dd11e.chunk.css"
   },
   {
-    "revision": "97836e4a050c6a6523ed",
-    "url": "/test-react/static/js/main.97836e4a.chunk.js"
+    "revision": "3460d6e7c02e9f385c99",
+    "url": "/test-react/static/js/main.3460d6e7.chunk.js"
   },
   {
     "revision": "8f2f4211b0891106f089",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/poppins-v20-latin-regular.9bb84f43.eot"
   },
   {
+    "revision": "f8ed328094e376b0b011d24029d0c2e6",
+    "url": "/test-react/static/media/poppins-v20-latin-regular.f8ed3280.woff"
+  },
+  {
     "revision": "9212f6f9860f9fc6c69b02fedf6db8c3",
     "url": "/test-react/static/media/poppins-v20-latin-regular.9212f6f9.woff2"
   },
@@ -60,11 +64,7 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg"
   },
   {
-    "revision": "f8ed328094e376b0b011d24029d0c2e6",
-    "url": "/test-react/static/media/poppins-v20-latin-regular.f8ed3280.woff"
-  },
-  {
-    "revision": "6e66cb77f8962b013cfc420c379f2eb2",
+    "revision": "b325e1acb59e2a3aa22a8188d5100a3c",
     "url": "/test-react/index.html"
   }
 ];
