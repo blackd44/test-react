@@ -1,11 +1,17 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Main from './pages/main/main'
+import Home from './pages/main/main.js'
+import Menu from './pages/global/menu/menuNav'
 
 function App() {
   return (
-    <Main/>
+    <>
+      <Menu/>
+      <Routes>
+        <Route path="/*" element={<Home />}/>
+      </Routes>
+    </>
   );
 }
 
