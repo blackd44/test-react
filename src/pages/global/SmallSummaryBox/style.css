@@ -1,0 +1,23 @@
+.Box {
+    width: 100%;
+}
+.images {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+}
+.images img {
+    position: absolute;
+    max-width: 50vw;
+}
+.images img.left {
+    transform: translateX(-12vw);
+    max-height: 65%;
+}
+.images img.right {
+    transform: translateX(12vw);
+    max-height: 100%;
+}

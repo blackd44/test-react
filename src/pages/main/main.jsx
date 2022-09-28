@@ -1,10 +1,15 @@
 import React from 'react';
 import introImg from "../../assets/img/jon-flobrant-t07FAEn9wAA-unsplash 1.png"
-import SummaryBox from "../global/boxes/SumBox"
+
+import SummaryBox from "../global/summuryBox/SummaryBox"
+import Sm_summary_box from '../global/SmallSummaryBox/Sm_Summary_b0x';
 
 import summaryImg1 from '../../assets/img/productionCapacity02-01x 1.png'
 import summaryImg2 from '../../assets/img/24000Tons12-01x 1.png'
 import summaryImg3 from '../../assets/img/Recyling02-01 1.png'
+
+import summaryImg4 from '../../assets/img/Bildschirmfoto 2021-06-29 um 15.32 11.png'
+import summaryImg5 from '../../assets/img/Bildschirmfoto 2021-06-29 um 15.32 9.png'
 
 const Home = (props) => {
     return(
@@ -22,6 +27,14 @@ const Home = (props) => {
                     <SummaryBox body={{title: ('tonnes').toUpperCase(), num: '24 000', content: 'of lithium per', until: 'year in 2025'}} image={summaryImg2}/>
                     <SummaryBox body={{title: ('percent').toUpperCase(), num: '50', content: 'of raw material will come', until: 'from recycling by 2030'}} image={summaryImg3}/>
                 </div>
+            </section>
+            <section className='small-summary-box'>
+                <Sm_summary_box body={{title: ('Who we are').toUpperCase(), info: "We are in it for the long run. We will source our raw material in Canada and convert it into battery-grade lithium hydroxide in Germany. Holding ourselves accountable to the highest standards to preserve the world we live in. Tomorrow, we will be the first closed-loop lithium company: using and re-using our lithium for a cleaner future. "}} 
+                    images={ 
+                        [
+                            {url: summaryImg4, place: 1}, 
+                            {url: summaryImg5, place: 2}
+                        ] } />
             </section>
         </>
     )

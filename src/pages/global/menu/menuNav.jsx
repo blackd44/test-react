@@ -1,25 +1,25 @@
 import React from 'react';
 import { Link } from "react-router-dom"
-// import { useEffect } from "react";
-// import $ from 'jquery'
+import { useEffect } from "react";
+import $ from 'jquery'
 
 
 const MenuNav = (props) => {
 
-    // useEffect(() => {
-    //     $(".menu-bar.add").click(() => {
-    //         $(".links").animate({left: '0'}, 600);
-    //         $(".menu-nav").css({"position": "fixed"});
-    //         $(".menu-bar.add").css({"display": "none"});
-    //         $(".menu-bar.remove").css({"display": "block"});
-    //     });
-    //     $(".menu-bar.remove").click(() => {
-    //         $(".links").animate({left: '100vw'}, 600);
-    //         $(".menu-nav").css({"position": "absolute"});
-    //         $(".menu-bar.add").css({"display": "block"});
-    //         $(".menu-bar.remove").css({"display": "none"});
-    //     });
-    // }, [])
+    useEffect(() => {
+        $(".menu-bar.add").click(() => {
+            $(".links").animate({left: '0'}, 600);
+            $(".menu-nav").css({"position": "fixed"});
+            $(".menu-bar.add").css({"display": "none"});
+            $(".menu-bar.remove").css({"display": "block"});
+        });
+        $(".menu-bar.remove").click(() => {
+            $(".links").animate({left: '100vw'}, 600);
+            $(".menu-nav").css({"position": "absolute"});
+            $(".menu-bar.add").css({"display": "block"});
+            $(".menu-bar.remove").css({"display": "none"});
+        });
+    }, [])
 
     let menuBar = (view) => {
         return {
