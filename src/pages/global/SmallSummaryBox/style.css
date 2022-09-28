@@ -6,7 +6,9 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin: 5vh 0;
     height: 80vh;
+    max-height: 90vw;
     position: relative;
 }
 .images img {
