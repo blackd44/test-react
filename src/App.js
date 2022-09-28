@@ -9,7 +9,8 @@ function App() {
     <>
       <Menu/>
       <Routes>
-        <Route path="/*" element={<Home />}/>
+        <Route exact path="/" element={<Home />}/>
+        <Route exact path="/hello" element={<div>hello</div>}/>
       </Routes>
     </>
   );
