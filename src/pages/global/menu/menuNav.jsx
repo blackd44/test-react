@@ -1,6 +1,7 @@
+import React from 'react';
 import { Link } from "react-router-dom"
-import { useEffect } from "react";
-import $ from 'jquery'
+// import { useEffect } from "react";
+// import $ from 'jquery'
 
 
 const MenuNav = (props) => {
@@ -65,7 +66,7 @@ const MenuNav = (props) => {
                 </svg>
             </div>
         </nav>
-    )
+    );
 }
 
 export default MenuNav
