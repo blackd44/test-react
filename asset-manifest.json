@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-react/static/css/main.b5100437.css",
-    "main.js": "/test-react/static/js/main.8db0354f.js",
+    "main.js": "/test-react/static/js/main.7f5c9dbe.js",
     "static/js/787.b52190a6.chunk.js": "/test-react/static/js/787.b52190a6.chunk.js",
     "static/media/poppins-v20-latin-regular.svg": "/test-react/static/media/poppins-v20-latin-regular.04277a799cb3f1b29dfa.svg",
     "static/media/poppins-v20-latin-regular.ttf": "/test-react/static/media/poppins-v20-latin-regular.80946c0880373b223d9c.ttf",
@@ -10,11 +10,11 @@
     "static/media/poppins-v20-latin-regular.woff2": "/test-react/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
     "index.html": "/test-react/index.html",
     "main.b5100437.css.map": "/test-react/static/css/main.b5100437.css.map",
-    "main.8db0354f.js.map": "/test-react/static/js/main.8db0354f.js.map",
+    "main.7f5c9dbe.js.map": "/test-react/static/js/main.7f5c9dbe.js.map",
     "787.b52190a6.chunk.js.map": "/test-react/static/js/787.b52190a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5100437.css",
-    "static/js/main.8db0354f.js"
+    "static/js/main.7f5c9dbe.js"
   ]
 }
