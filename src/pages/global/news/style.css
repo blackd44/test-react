@@ -1,0 +1,48 @@
+section.news .head {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 300%;
+    padding-bottom: 1rem;
+}
+section.news .head svg {
+    height: 30px;
+    width: 30px;
+}
+section.news {
+    height: 100vh;
+}
+section.news > div {
+    border-bottom: 1px solid var(--black-color);
+}
+section.news .news {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+    overflow-x: auto;
+}
+section.news .news > div {
+    width: 100%;
+    margin-right: 3rem;
+    padding: 2rem 0;
+}
+section.news .news > div:last-of-type{
+    margin-right: 0;
+}
+section.news .news .image img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+section.news .news .info {
+    font-size: 150%;
+}
+section.news .news .info .title {
+    font-size: 65%;
+    font-weight: bolder;
+    padding: 0.5rem 0;
+}
