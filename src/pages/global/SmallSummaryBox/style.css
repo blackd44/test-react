@@ -1,6 +1,13 @@
+.small-summary-box {
+    background-color: var(--green-color);
+    padding-bottom: 0;
+    margin-bottom: var(--side-space);
+}
+  
 .Box {
     width: 100%;
 }
+
 .images {
     display: flex;
     align-content: center;
@@ -22,4 +29,25 @@
 .images img.right {
     transform: translateX(12vw);
     max-height: 100%;
+}
+
+.images .white {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 50%;
+}
+
+.Box .info {
+    color: var(--white-color);
+    text-align: center;
+}
+.Box .info .title {
+    font-size: 85%;
+    padding: 2rem 0 1.5rem;
+}
+.Box .info .content {
+    font-size: 120%;
+    word-spacing: 2px;
+    line-height: 2rem;
 }

@@ -12,6 +12,7 @@ html, body {
   font-family: var(--default-font), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  overflow-x: hidden;
 }
 
 body{
@@ -21,6 +22,7 @@ body{
 :root {
   --white-color: #FFFEFB;
   --black-color:  #1E1E1E;
+  --green-color: #00B35B;
   --default-font: 'Poppins';
   --side-space: 5%;
 }
@@ -114,4 +116,9 @@ h2{
 .summary-section {
   text-align: center;
   color: var(--black-color);
+}
+
+
+.white{
+  background-color: var(--white-color);
 }

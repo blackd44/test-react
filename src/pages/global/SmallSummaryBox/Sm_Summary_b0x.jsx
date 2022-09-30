@@ -12,11 +12,12 @@ const Sm_summary_box = (props) => {
 
     return(
         <div className="Box">
-            <div>
-                <div><b>{props.body.title}</b></div>
-                <div>{props.body.info}</div>
+            <div className="info">
+                <div className="title"><b>{props.body.title}</b></div>
+                <div className="content">{props.body.info}</div>
             </div>
             <div className="images">
+                <div className="white"></div>
                 {images.map((image)=> (
                     <img key={image.url} src={image.url} alt="rocktech" className={`${image.class}`}/>
                 ))}
