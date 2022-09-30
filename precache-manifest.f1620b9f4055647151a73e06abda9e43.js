@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "2f9c48565a21fc9fdfd5",
-    "url": "/test-react/static/css/main.fde62027.chunk.css"
+    "revision": "fe40348462a40554ac3b",
+    "url": "/test-react/static/css/main.23b1a06e.chunk.css"
   },
   {
-    "revision": "2f9c48565a21fc9fdfd5",
-    "url": "/test-react/static/js/main.2f9c4856.chunk.js"
+    "revision": "fe40348462a40554ac3b",
+    "url": "/test-react/static/js/main.fe403484.chunk.js"
   },
   {
-    "revision": "8f2f4211b0891106f089",
-    "url": "/test-react/static/js/1.8f2f4211.chunk.js"
+    "revision": "aa1ef92c5cf7728f9d0a",
+    "url": "/test-react/static/js/1.aa1ef92c.chunk.js"
   },
   {
-    "revision": "511202960b395ac7155c",
-    "url": "/test-react/static/js/2.51120296.chunk.js"
+    "revision": "11906d4ea4f7251ea4ae",
+    "url": "/test-react/static/js/2.11906d4e.chunk.js"
   },
   {
-    "revision": "0f4f6e267dcdebb7b337",
-    "url": "/test-react/static/js/runtime~main.0f4f6e26.js"
+    "revision": "7b467d036626adb8f513",
+    "url": "/test-react/static/js/runtime~main.7b467d03.js"
+  },
+  {
+    "revision": "d6a41853c5abdf118fda8819521ad304",
+    "url": "/test-react/static/media/Bildschirmfoto 2021-06-29 um 15.32 3.d6a41853.png"
   },
   {
     "revision": "07a7eef2014a7bf386f99859a84d0821",
@@ -48,12 +52,12 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/poppins-v20-latin-regular.9bb84f43.eot"
   },
   {
-    "revision": "9212f6f9860f9fc6c69b02fedf6db8c3",
-    "url": "/test-react/static/media/poppins-v20-latin-regular.9212f6f9.woff2"
-  },
-  {
     "revision": "f8ed328094e376b0b011d24029d0c2e6",
     "url": "/test-react/static/media/poppins-v20-latin-regular.f8ed3280.woff"
+  },
+  {
+    "revision": "9212f6f9860f9fc6c69b02fedf6db8c3",
+    "url": "/test-react/static/media/poppins-v20-latin-regular.9212f6f9.woff2"
   },
   {
     "revision": "891f6ba4349c741c07868dec22e012b2",
@@ -64,7 +68,7 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg"
   },
   {
-    "revision": "74cada4c4269441b28ceeea7c6957c64",
+    "revision": "1cac604466dee1eb93506076f0558a90",
     "url": "/test-react/index.html"
   }
 ];
