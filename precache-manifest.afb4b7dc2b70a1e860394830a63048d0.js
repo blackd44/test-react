@@ -1,27 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "b302e579cb0853b794ea",
-    "url": "/test-react/static/css/main.dcc978bb.chunk.css"
+    "revision": "a6e9ff05a7ba921beb78",
+    "url": "/test-react/static/css/main.1397a640.chunk.css"
   },
   {
-    "revision": "b302e579cb0853b794ea",
-    "url": "/test-react/static/js/main.b302e579.chunk.js"
+    "revision": "a6e9ff05a7ba921beb78",
+    "url": "/test-react/static/js/main.a6e9ff05.chunk.js"
   },
   {
-    "revision": "e7e0e04a5ea3842eb42e",
-    "url": "/test-react/static/js/1.e7e0e04a.chunk.js"
+    "revision": "2d3efeb71c7eebfe7cd0",
+    "url": "/test-react/static/js/1.2d3efeb7.chunk.js"
   },
   {
-    "revision": "b3cc2db66c409b477ff2",
-    "url": "/test-react/static/js/2.b3cc2db6.chunk.js"
+    "revision": "12a96a5f9e488df18ff1",
+    "url": "/test-react/static/js/2.12a96a5f.chunk.js"
   },
   {
-    "revision": "12e44e84ae7bc05a260a",
-    "url": "/test-react/static/js/runtime~main.12e44e84.js"
+    "revision": "8ea4ab27fbb73df716af",
+    "url": "/test-react/static/js/runtime~main.8ea4ab27.js"
   },
   {
     "revision": "d6a41853c5abdf118fda8819521ad304",
     "url": "/test-react/static/media/Bildschirmfoto 2021-06-29 um 15.32 3.d6a41853.png"
+  },
+  {
+    "revision": "89988f9a0d9f2481c980f6f69f674e3f",
+    "url": "/test-react/static/media/Bildschirmfoto 2021-06-29 um 15.32 3 (1).89988f9a.png"
   },
   {
     "revision": "07a7eef2014a7bf386f99859a84d0821",
@@ -68,7 +72,7 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg"
   },
   {
-    "revision": "e4c1f67e83c709de18faaa5a46b76116",
+    "revision": "09194c2d58a1c23dba5da2d5d3c2b151",
     "url": "/test-react/index.html"
   }
 ];
