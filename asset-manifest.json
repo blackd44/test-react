@@ -1,7 +1,7 @@
 {
-  "main.css": "/test-react/static/css/main.dee4433b.chunk.css",
-  "main.js": "/test-react/static/js/main.d62f7be1.chunk.js",
-  "main.js.map": "/test-react/static/js/main.d62f7be1.chunk.js.map",
+  "main.css": "/test-react/static/css/main.dcc978bb.chunk.css",
+  "main.js": "/test-react/static/js/main.b302e579.chunk.js",
+  "main.js.map": "/test-react/static/js/main.b302e579.chunk.js.map",
   "static/js/1.e7e0e04a.chunk.js": "/test-react/static/js/1.e7e0e04a.chunk.js",
   "static/js/1.e7e0e04a.chunk.js.map": "/test-react/static/js/1.e7e0e04a.chunk.js.map",
   "static/js/2.b3cc2db6.chunk.js": "/test-react/static/js/2.b3cc2db6.chunk.js",
@@ -16,8 +16,8 @@
   "static/media/Bildschirmfoto 2021-06-29 um 15.32 11.png": "/test-react/static/media/Bildschirmfoto 2021-06-29 um 15.32 11.f753949b.png",
   "static/media/Bildschirmfoto 2021-06-29 um 15.32 9.png": "/test-react/static/media/Bildschirmfoto 2021-06-29 um 15.32 9.b10e350c.png",
   "static/media/App.css": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg",
-  "static/css/main.dee4433b.chunk.css.map": "/test-react/static/css/main.dee4433b.chunk.css.map",
+  "static/css/main.dcc978bb.chunk.css.map": "/test-react/static/css/main.dcc978bb.chunk.css.map",
   "index.html": "/test-react/index.html",
-  "precache-manifest.a9de5365c9d8037b62e863de15849605.js": "/test-react/precache-manifest.a9de5365c9d8037b62e863de15849605.js",
+  "precache-manifest.e6b6d8fc15b5dded4c1d8b5e01ea4a07.js": "/test-react/precache-manifest.e6b6d8fc15b5dded4c1d8b5e01ea4a07.js",
   "service-worker.js": "/test-react/service-worker.js"
 }

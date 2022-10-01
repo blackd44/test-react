@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d62f7be15a940fe6f13d",
-    "url": "/test-react/static/css/main.dee4433b.chunk.css"
+    "revision": "b302e579cb0853b794ea",
+    "url": "/test-react/static/css/main.dcc978bb.chunk.css"
   },
   {
-    "revision": "d62f7be15a940fe6f13d",
-    "url": "/test-react/static/js/main.d62f7be1.chunk.js"
+    "revision": "b302e579cb0853b794ea",
+    "url": "/test-react/static/js/main.b302e579.chunk.js"
   },
   {
     "revision": "e7e0e04a5ea3842eb42e",
@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/Bildschirmfoto 2021-06-29 um 15.32 9.b10e350c.png"
   },
   {
-    "revision": "9212f6f9860f9fc6c69b02fedf6db8c3",
-    "url": "/test-react/static/media/poppins-v20-latin-regular.9212f6f9.woff2"
-  },
-  {
     "revision": "9bb84f43a12747b2b89b64d4073a6859",
     "url": "/test-react/static/media/poppins-v20-latin-regular.9bb84f43.eot"
+  },
+  {
+    "revision": "9212f6f9860f9fc6c69b02fedf6db8c3",
+    "url": "/test-react/static/media/poppins-v20-latin-regular.9212f6f9.woff2"
   },
   {
     "revision": "f8ed328094e376b0b011d24029d0c2e6",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg"
   },
   {
-    "revision": "3243c38bf208fcd91f4c97d6436be4a5",
+    "revision": "e4c1f67e83c709de18faaa5a46b76116",
     "url": "/test-react/index.html"
   }
 ];
