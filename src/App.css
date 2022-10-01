@@ -18,6 +18,9 @@ html, body {
 body{
   background-color: var(--white-color);
 }
+div#root {
+  position: relative;
+}
 
 :root {
   --white-color: #FFFEFB;
@@ -46,18 +49,6 @@ section {
   min-height: 50vh;
 }
 
-.menu-nav {
-  width: 100%;
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  top: 0;
-  z-index: 1;
-  padding: 1rem var(--side-space);
-}
-.menu-nav .menu-bar.remove{
-  display: none;
-}
 
 h2{
   font-size: 2.5rem;
@@ -89,35 +80,6 @@ h2{
   line-height: 25px;
   word-spacing: 2px;
 }
-
-.menu-nav .links {
-  position: fixed;
-  padding: 3rem 0 0;
-  top: 0;
-  left: 100vw;
-  width: 100%;
-  height: 100vh;
-  background-color: var(--black-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  z-index: -1;
-  align-items: center;
-  align-content: center;
-}
-.menu-nav .links a {
-  font-size: 2rem;
-  color: var(--white-color);
-  text-decoration: none;
-}
-
-
-.summary-section {
-  text-align: center;
-  color: var(--black-color);
-}
-
 
 .white{
   background-color: var(--white-color);

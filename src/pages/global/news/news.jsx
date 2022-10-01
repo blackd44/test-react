@@ -28,7 +28,7 @@ const News = (props) => {
                         <img alt="Vancouver, BC, Canada – May 25, 2021" src={image1}/>
                     </div>
                     <div className="info">
-                        <div class="title">Vancouver, BC, Canada – May 25, 2021</div>
+                        <div className="title">Vancouver, BC, Canada – May 25, 2021</div>
                         <div>Rock Tech Chairman & CEO, Dirk Harbecke, Interviewed by the Investing News Network</div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const News = (props) => {
                         <img alt="Vancouver, BC, Canada – May 25, 2021" src={image1}/>
                     </div>
                     <div className="info">
-                        <div class="title">Vancouver, BC, Canada – May 25, 2021</div>
+                        <div className="title">Vancouver, BC, Canada – May 25, 2021</div>
                         <div>Rock Tech Chairman & CEO, Dirk Harbecke, Interviewed by the Investing News Network</div>
                     </div>
                 </div>

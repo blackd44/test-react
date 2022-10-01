@@ -1,0 +1,105 @@
+nav.menu-nav, nav.menu-nav * {
+    box-sizing: border-box;
+}
+nav.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--side-space);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition: transform 1s ease;
+}
+
+nav.menu-nav .logo {
+    margin: 1.5rem 0;
+}
+
+nav.menu-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 1s;
+}
+nav.menu-nav ul li {
+    list-style: none;
+    display: flex;
+}
+nav.menu-nav ul li a {
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+@media(max-width: 1400px) {
+    nav.menu-nav ul li a{
+        padding: 1.5rem 1rem;
+    }
+}
+
+div.menu-bar{
+    display: none;
+}
+div.menu-bar div {
+    width: 30px;
+    height: 3px;
+    background-color: var(--white-color);
+    color: var(--white-color);
+    border-radius: 3px;
+}
+div.menu-bar div:nth-of-type(2) {
+    margin: 5px 0;
+}
+nav.menu-nav ul li:first-of-type a {
+    padding-left: 0;
+}
+nav.menu-nav ul li:last-of-type a {
+    padding-right: 0;
+}
+
+@media screen and (max-width: 1060px) {
+    nav.menu-nav ul {
+        transform: translateX(100vw);
+        position: absolute;
+        left: 0;
+        top: calc(3rem + 25px);
+        min-height: calc(100vh - 3rem - 25px);
+        height: fit-content;
+        width: 100%;
+        background-color: var(--black-color);
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 130%;
+        transition: transform 1s ease;
+    }
+    div.menu-bar{
+        display: block;
+        cursor: pointer;
+    }
+    nav.menu-nav ul li a{
+        padding: 0 0 11vh;
+    }
+    nav.menu-nav ul li:first-of-type a {
+        padding-top: 2vh;
+    }
+    nav:has(.ul-active) {
+        animation: backgroundToBlack 1s ease forwards;
+    }
+}
+
+.ul-active {
+    transform: translateX(0) !important;
+}
+
+@keyframes backgroundToBlack {
+    0% {
+        background-color: initial;
+    }
+    100% {
+        background-color: var(--black-color);
+    }
+}
