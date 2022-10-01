@@ -2,7 +2,7 @@ import React from 'react';
 import introImg from "../../assets/img/jon-flobrant-t07FAEn9wAA-unsplash 1.png"
 
 import SummaryBox from "../global/summuryBox/SummaryBox"
-import Sm_summary_box from '../global/SmallSummaryBox/Sm_Summary_b0x'
+import SmSummarySox from '../global/SmallSummaryBox/Sm_Summary_b0x'
 import News from '../global/news/news';
 
 import summaryImg1 from '../../assets/img/productionCapacity02-01x 1.png'
@@ -30,7 +30,7 @@ const Home = (props) => {
                 </div>
             </section>
             <section className='small-summary-box'>
-                <Sm_summary_box body={{title: ('Who we are').toUpperCase(), info: "We are in it for the long run. We will source our raw material in Canada and convert it into battery-grade lithium hydroxide in Germany. Holding ourselves accountable to the highest standards to preserve the world we live in. Tomorrow, we will be the first closed-loop lithium company: using and re-using our lithium for a cleaner future. "}} 
+                <SmSummarySox body={{title: ('Who we are').toUpperCase(), info: "We are in it for the long run. We will source our raw material in Canada and convert it into battery-grade lithium hydroxide in Germany. Holding ourselves accountable to the highest standards to preserve the world we live in. Tomorrow, we will be the first closed-loop lithium company: using and re-using our lithium for a cleaner future. "}} 
                     images={ 
                         [
                             {url: summaryImg4, place: 1}, 

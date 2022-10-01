@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css'
 
-const Sm_summary_box = (props) => {
+const SmSummarySox = (props) => {
     const images = props.images
     images.sort((a, b) => b.place-a.place)
 
@@ -26,4 +26,4 @@ const Sm_summary_box = (props) => {
     )
 }
 
-export default Sm_summary_box
+export default SmSummarySox

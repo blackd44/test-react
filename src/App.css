@@ -90,7 +90,7 @@ h2{
   word-spacing: 2px;
 }
 
-.links {
+.menu-nav .links {
   position: fixed;
   padding: 3rem 0 0;
   top: 0;
@@ -106,7 +106,7 @@ h2{
   align-items: center;
   align-content: center;
 }
-.links a {
+.menu-nav .links a {
   font-size: 2rem;
   color: var(--white-color);
   text-decoration: none;
@@ -121,4 +121,8 @@ h2{
 
 .white{
   background-color: var(--white-color);
+}
+
+.upper {
+  text-transform: uppercase;
 }

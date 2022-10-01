@@ -1,0 +1,35 @@
+section.footer {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 85%;
+    font-weight: bold;
+}
+section.footer a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+section.footer .links, section.footer .contacts, section.footer div form {
+    font-size: 130%;
+    font-weight: initial;
+}
+
+
+section.footer div div,  section.footer div form{
+    display: flex;
+    flex-direction: column;
+}
+section.footer div div {
+    margin: 2rem 0;
+}
+section.footer div form > *{
+    width: 100%;
+    font-size: 110%;
+    padding: .7rem 2rem;
+    margin: .7rem 0;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border-radius: 50px;
+    outline: none;
+}
