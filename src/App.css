@@ -91,20 +91,21 @@ section {
 @media screen and (min-width: 900px) {
   .top-section {
     text-align: left;
-    font-size: 130%;
+    font-size: 120%;
   }
   .page-intro {
     width: 60%;
     min-width: 820px;
   }
   .page-intro p {
-    line-height: 47px;
+    line-height: 2.5rem;
     word-spacing: 6px;
-    width: 70%;
-  }
+    letter-spacing: 1px;
+    width: 65%;
+}
   .page-intro h2 {
     font-size: 400%;
-    padding: 0px 0 6rem;
+    padding: 0px 0 4rem;
     font-weight: lighter;
     word-spacing: 1rem;
   }
