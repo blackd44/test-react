@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a6e9ff05a7ba921beb78",
-    "url": "/test-react/static/css/main.1397a640.chunk.css"
+    "revision": "de06635e2cf48ce9e2ac",
+    "url": "/test-react/static/css/main.b42444ad.chunk.css"
   },
   {
-    "revision": "a6e9ff05a7ba921beb78",
-    "url": "/test-react/static/js/main.a6e9ff05.chunk.js"
+    "revision": "de06635e2cf48ce9e2ac",
+    "url": "/test-react/static/js/main.de06635e.chunk.js"
   },
   {
     "revision": "2d3efeb71c7eebfe7cd0",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg"
   },
   {
-    "revision": "09194c2d58a1c23dba5da2d5d3c2b151",
+    "revision": "55e1c14e2aa15a46efc69dc52e54f351",
     "url": "/test-react/index.html"
   }
 ];
