@@ -50,6 +50,8 @@ div.menu-bar div {
     background-color: var(--white-color);
     color: var(--white-color);
     border-radius: 3px;
+    transition: transform 1s ease;
+    opacity: 1;
 }
 div.menu-bar div:nth-of-type(2) {
     margin: 5px 0;
@@ -86,13 +88,23 @@ nav.menu-nav ul li:last-of-type a {
     nav.menu-nav ul li:first-of-type a {
         padding-top: 2vh;
     }
-    nav:has(.ul-active) {
+    nav:has(ul.links.active) {
         animation: backgroundToBlack 1s ease forwards;
     }
 }
 
-.ul-active {
+ul.links.active {
     transform: translateX(0) !important;
+}
+
+.menu-bar.active .line1{
+    transform: rotate(45deg) translate(5px, 6px);
+}
+.menu-bar.active .line2{
+    transform: rotateY(90deg) translatex(-70px);
+}
+.menu-bar.active .line3{
+    transform: rotate(-45deg) translate(5px,-6px);
 }
 
 @keyframes backgroundToBlack {

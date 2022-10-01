@@ -6,7 +6,8 @@ const MenuBar = () => {
         const lines = document.querySelector('.menu-bar')
         const nav = document.querySelector('ul.links')
 
-        nav.classList.toggle('ul-active');
+        nav.classList.toggle('active');
+        lines.classList.toggle('active');
     }
 
     return(
