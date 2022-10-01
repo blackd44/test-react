@@ -46,4 +46,7 @@ section.footer div form > *{
         flex-direction: column;
         justify-content: space-between;
     }
+    section.footer > div div:first-of-type {
+        margin-top: 0;
+    }
 }
