@@ -51,3 +51,18 @@
     word-spacing: 2px;
     line-height: 2rem;
 }
+@media screen and (min-width: 900px) {
+    .Box .info {
+        text-align: left;
+        font-size: 170%;
+        padding-bottom: 4rem;
+    }
+    .Box .info .content {
+        line-height: 4.1rem;
+        word-spacing: 10px;
+    }
+    .Box .info .title {
+        font-size: 69%;
+        padding: 1rem 7% 3rem;
+    }
+}

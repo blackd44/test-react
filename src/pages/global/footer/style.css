@@ -3,6 +3,7 @@ section.footer {
     color: var(--white-color);
     font-size: 85%;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 section.footer a{
     color: var(--white-color);
@@ -21,6 +22,7 @@ section.footer div div,  section.footer div form{
 }
 section.footer div div {
     margin: 2rem 0;
+    width: 100%;
 }
 section.footer div form > *{
     width: 100%;
@@ -32,4 +34,16 @@ section.footer div form > *{
     background-color: var(--black-color);
     border-radius: 50px;
     outline: none;
+}
+@media screen and (min-width: 1010px) {
+    section.footer {
+        display: flex;
+        font-size: 90%;
+    }
+    section.footer > div {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }

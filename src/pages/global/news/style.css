@@ -12,7 +12,8 @@ section.news .head svg {
     width: 30px;
 }
 section.news {
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
 }
 section.news > div {
     border-bottom: 1px solid var(--black-color);
@@ -24,6 +25,7 @@ section.news .news {
     display: -ms-box;
     display: -o-box;
     overflow-x: auto;
+    margin: 0 0 2rem;
 }
 section.news .news > div {
     width: 100%;
@@ -35,7 +37,7 @@ section.news .news > div:last-of-type{
 }
 section.news .news .image img {
     width: 100%;
-    max-height: 300px;
+    max-height: 370px;
     object-fit: cover;
 }
 section.news .news .info {
@@ -45,4 +47,16 @@ section.news .news .info .title {
     font-size: 60%;
     font-weight: bolder;
     padding: 0.5rem 0;
+}
+@media screen and (min-width: 900px) {
+    section.news .news > div {
+        width: calc(50% - 1.5rem);
+    }
+    section.news .news .info {
+        font-size: 220%;
+    }
+    section.news .news .info .title {
+        font-size: 50%;
+        padding: 1rem 0;
+    }
 }

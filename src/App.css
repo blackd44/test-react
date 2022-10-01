@@ -50,8 +50,8 @@ section {
 }
 
 
-h2{
-  font-size: 2.5rem;
+.top-section h2{
+  font-size: 250%;
   line-height: 125%;
   padding: 1rem 0;
 }
@@ -87,4 +87,30 @@ h2{
 
 .upper {
   text-transform: uppercase;
+}
+@media screen and (min-width: 900px) {
+  .top-section {
+    text-align: left;
+    font-size: 130%;
+  }
+  .page-intro {
+    width: 60%;
+    min-width: 820px;
+  }
+  .page-intro p {
+    line-height: 47px;
+    word-spacing: 6px;
+    width: 70%;
+  }
+  .page-intro h2 {
+    font-size: 400%;
+    padding: 0px 0 6rem;
+    font-weight: lighter;
+    word-spacing: 1rem;
+  }
+}
+@media screen and (min-width: 1560px){
+  .top-section {
+    font-size: 150%;
+  }
 }
