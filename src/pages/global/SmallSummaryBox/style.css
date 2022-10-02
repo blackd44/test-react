@@ -15,7 +15,7 @@
     align-items: center;
     margin: 5vh 0;
     height: 80vh;
-    max-height: 90vw;
+    max-height: 70vw;
     position: relative;
 }
 .images img {
@@ -29,6 +29,17 @@
 .images img.right {
     transform: translateX(12vw);
     max-height: 100%;
+}
+
+.images.oneAbove img.left {
+    transform: translate(-12vw, 5rem);
+    max-height: none;
+    max-width: 40%;
+}
+.images.oneAbove img.right {
+    transform: translateX(12vw, -5rem);
+    max-height: none;
+    max-width: 40%;
 }
 
 .images .white {
@@ -58,11 +69,11 @@
         padding-bottom: 4rem;
     }
     .Box .info .content {
-        line-height: 4.1rem;
-        word-spacing: 10px;
+        line-height: initial;
+        word-spacing: 8px;
     }
     .Box .info .title {
         font-size: 69%;
-        padding: 1rem 7% 3rem;
+        padding: 1rem 7%;
     }
 }

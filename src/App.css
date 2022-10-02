@@ -49,13 +49,6 @@ section {
   min-height: 50vh;
 }
 
-
-.top-section h2{
-  font-size: 250%;
-  line-height: 125%;
-  padding: 1rem 0;
-}
-
 .top-section {
   position: relative;
   min-height: 100vh;
@@ -64,6 +57,21 @@ section {
   color: var(--white-color);
   text-align: center;
 }
+.top-section2 {
+  align-items: flex-end;
+}
+
+.top-section h2{
+  font-size: 250%;
+  line-height: 125%;
+  padding: 1rem 0;
+}
+.top-section2 h2 {
+  font-size: 70%;
+  line-height: 125%;
+  padding: 1rem 0;
+}
+
 .top-section > img{
   position: absolute;
   top: 0;
@@ -73,12 +81,26 @@ section {
   object-fit: cover;
   z-index: -1;
 }
-.page-intro h2 {
+.top-section2 .page-intro {
+  font-size: 210%;
+  padding: 1rem 0 0.5rem;
+  color: var(--black-color);
+}
+
+.top-section .page-intro h2 {
   padding: 3rem 0;
 }
-.page-intro p {
+.top-section2 .page-intro h2 {
+  padding: 0 0;
+}
+
+.top-section .page-intro p {
   line-height: 25px;
   word-spacing: 2px;
+}
+.top-section2 .page-intro p {
+  line-height: initial;
+  word-spacing: 3px;
 }
 
 .white{
@@ -93,21 +115,34 @@ section {
     text-align: left;
     font-size: 120%;
   }
-  .page-intro {
-    width: 60%;
+  .top-section2 {
+    font-size: 200%;
+    padding-bottom: 10px;
+  }
+  .top-section2 .page-intro {
+    width: 75%;
     min-width: 820px;
   }
-  .page-intro p {
+  .top-section .page-intro p {
     line-height: 2.5rem;
     word-spacing: 6px;
     letter-spacing: 1px;
     width: 65%;
-}
-  .page-intro h2 {
+  }
+  .top-section2 .page-intro p {
+    line-height: 1.2em;
+    width: 100%;
+  }
+  .top-section .page-intro h2 {
     font-size: 400%;
     padding: 0px 0 4rem;
     font-weight: lighter;
     word-spacing: 1rem;
+  }
+  .top-section2 .page-intro h2 {
+    font-size: 30%;
+    padding: 0 0 0.5rem 7rem;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 1560px){

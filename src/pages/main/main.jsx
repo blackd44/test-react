@@ -24,14 +24,12 @@ const Home = (props) => {
                     <SummaryBox body={{title: ('percent').toUpperCase(), num: '50', content: 'of raw material will come', until: 'from recycling by 2030'}} image={summaryImg3}/>
                 </div>
             </section>
-            <section className='small-summary-box'>
-                <SmSummarySox body={{title: ('Who we are').toUpperCase(), info: "We are in it for the long run. We will source our raw material in Canada and convert it into battery-grade lithium hydroxide in Germany. Holding ourselves accountable to the highest standards to preserve the world we live in. Tomorrow, we will be the first closed-loop lithium company: using and re-using our lithium for a cleaner future. "}} 
-                    images={ 
-                        [
-                            {url: summaryImg4, place: 1}, 
-                            {url: summaryImg5, place: 2}
-                        ] } />
-            </section>
+            <SmSummarySox body={{title: ('Who we are').toUpperCase(), info: "We are in it for the long run. We will source our raw material in Canada and convert it into battery-grade lithium hydroxide in Germany. Holding ourselves accountable to the highest standards to preserve the world we live in. Tomorrow, we will be the first closed-loop lithium company: using and re-using our lithium for a cleaner future. "}} 
+                images={ 
+                    [
+                        {url: summaryImg4, place: 1}, 
+                        {url: summaryImg5, place: 2}
+                    ] } />
             <News />
         </>
     )
