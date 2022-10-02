@@ -1,11 +1,11 @@
 {
   "main.css": "/test-react/static/css/main.1d9b366e.chunk.css",
-  "main.js": "/test-react/static/js/main.853630cb.chunk.js",
-  "main.js.map": "/test-react/static/js/main.853630cb.chunk.js.map",
+  "main.js": "/test-react/static/js/main.11f9b5e5.chunk.js",
+  "main.js.map": "/test-react/static/js/main.11f9b5e5.chunk.js.map",
   "static/js/1.d6ad0681.chunk.js": "/test-react/static/js/1.d6ad0681.chunk.js",
   "static/js/1.d6ad0681.chunk.js.map": "/test-react/static/js/1.d6ad0681.chunk.js.map",
-  "static/js/2.6856f3eb.chunk.js": "/test-react/static/js/2.6856f3eb.chunk.js",
-  "static/js/2.6856f3eb.chunk.js.map": "/test-react/static/js/2.6856f3eb.chunk.js.map",
+  "static/js/2.49a5d481.chunk.js": "/test-react/static/js/2.49a5d481.chunk.js",
+  "static/js/2.49a5d481.chunk.js.map": "/test-react/static/js/2.49a5d481.chunk.js.map",
   "runtime~main.js": "/test-react/static/js/runtime~main.efc1cbed.js",
   "runtime~main.js.map": "/test-react/static/js/runtime~main.efc1cbed.js.map",
   "static/media/Bildschirmfoto 2021-06-29 um 15.32 3.png": "/test-react/static/media/Bildschirmfoto 2021-06-29 um 15.32 3.d6a41853.png",
@@ -24,6 +24,6 @@
   "static/media/App.css": "/test-react/static/media/poppins-v20-latin-regular.c26cc61a.svg",
   "static/css/main.1d9b366e.chunk.css.map": "/test-react/static/css/main.1d9b366e.chunk.css.map",
   "index.html": "/test-react/index.html",
-  "precache-manifest.010398e9089abc18eb501789cc8a881e.js": "/test-react/precache-manifest.010398e9089abc18eb501789cc8a881e.js",
+  "precache-manifest.da23c2b941766e6650cb125cd746c543.js": "/test-react/precache-manifest.da23c2b941766e6650cb125cd746c543.js",
   "service-worker.js": "/test-react/service-worker.js"
 }
