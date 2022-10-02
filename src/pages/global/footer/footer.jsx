@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div>
                 <div className="links">
-                    <Link to={""}>Why RockTech?</Link>
+                    <Link to={"/whyrocktech"}>Why RockTech?</Link>
                     <Link to={""}>Product</Link>
                     <Link to={""}>Sustainability</Link>
                     <Link to={""}>Investors</Link>

@@ -13,12 +13,12 @@ const MenuNav = (props) => {
                 <LogoSvg />
             </div>
             <ul className="links">
-                <li><Link to="#">Why RockTech</Link></li>
-                <li><Link to="#">Product</Link></li>
-                <li><Link to="#">Sustainability</Link></li>
-                <li><Link to="#">Investors</Link></li>
-                <li><Link to="#">Career</Link></li>
-                <li><Link to="#">DE|EN</Link></li>
+                <li><Link to="/whyrocktech">Why RockTech</Link></li>
+                <li><Link to="">Product</Link></li>
+                <li><Link to="">Sustainability</Link></li>
+                <li><Link to="">Investors</Link></li>
+                <li><Link to="">Career</Link></li>
+                <li><Link to="">DE|EN</Link></li>
             </ul>
             <MenuBar/>
         </nav>

@@ -6,13 +6,16 @@ import Home from './pages/main/main'
 import Menu from './pages/global/menu/menuNav'
 import Footer from './pages/global/footer/footer';
 
+import WhyRocktech from './pages/whyRocktech/index';
+
 function App() {
   return (
     <>
       <Menu/>
       <Routes>
-        <Route exact path="/" element={<Home />}/>
-        <Route exact path="/hello" element={<div>hello</div>}/>
+        <Route path="/" element={<Home />}/>
+        <Route path="/whyrocktech" element={<WhyRocktech />}/>
+        <Route path="/hello" element={<div>hello</div>}/>
       </Routes>
       <Footer/>
     </>
